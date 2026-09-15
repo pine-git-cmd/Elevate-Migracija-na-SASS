@@ -1,7 +1,13 @@
-/* General Styles */
+$primary-color: #ff7e5f;
+$secondary-color: #feb47b;
+$text-color: #333;
+$bg-dark: #222;
+$font-main: Arial, sans-serif;
+$box-shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.1);
+
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family: $font-main;
+    color: $text-color;
     margin: 0;
     padding: 0;
 }
