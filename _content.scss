@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10px;
+
+    h1 {
+        font-size: $font-size-h1;
+        color: $primary-color;
+    }
+
+    p {
+        font-size: $font-size-base;
+    }
+
+    @include responsive(576px) {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .content {
+        width: 50%;
+
+        @include responsive(576px) {
+            width: 100%;
+        }
+    }
+
+    img {
+        width: 40%;
+
+        @include responsive(576px) {
+            width: 80%;
+            margin-top: 20px;
+        }
+    }
+}
+
+.features {
+    background: $bg-light;
+}
+
+.center-section {
+    text-align: center;
+    padding: $section-padding;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+
+    @include responsive(992px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+.card {
+    background: $white;
+    padding: 20px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: $box-shadow-card;
+
+    @include responsive(992px) {
+        width: 80%;
+    }
+}

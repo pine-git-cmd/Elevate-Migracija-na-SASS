@@ -1,15 +1,20 @@
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  margin: 0;
-  padding: 0;
+/* Promenljive i Mixini */
+.primary-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+.primary-btn:hover {
+  box-shadow: 0px 5px 15px rgba(255, 126, 95, 0.4);
 }
 
-h2 {
-  font-size: 32px;
-}
-
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -55,24 +60,6 @@ h2 {
   }
 }
 
-/* Primary Button */
-.primary-btn {
-  display: inline-block;
-  padding: 15px 30px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  text-decoration: none;
-  border: none;
-  border-radius: 8px;
-  background: linear-gradient(45deg, #ff7e5f, #feb47b);
-}
-.primary-btn:hover {
-  box-shadow: 0px 5px 15px rgba(255, 126, 95, 0.4);
-}
-
-/* Main Section */
 .main {
   display: flex;
   align-items: center;
@@ -111,7 +98,6 @@ h2 {
   }
 }
 
-/* Features & Plans Sections */
 .features {
   background: #f3f3f3;
 }
@@ -146,7 +132,17 @@ h2 {
   }
 }
 
-/* Footer */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
 .footer {
   text-align: center;
   padding: 20px;
@@ -154,4 +150,4 @@ h2 {
   color: #ffffff;
 }
 
-/*# sourceMappingURL=elevate.css.map */
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+@use 'variables' as *;
+@use 'primary-btn';
+@use 'header';
+@use 'content';
+
+body {
+    font-family: $font-family-base;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: $bg-dark;
+    color: $white;
+}

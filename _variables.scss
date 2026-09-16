@@ -1,0 +1,20 @@
+/* Promenljive i Mixini */
+$primary-color: #ff7e5f;
+$secondary-color: #feb47b;
+$text-color: #333;
+$bg-light: #f3f3f3;
+$bg-dark: #222;
+$white: #ffffff;
+$font-family-base: Arial, sans-serif;
+$font-size-base: 18px;
+$font-size-h2: 32px;
+$font-size-h1: 48px;
+$box-shadow-card: 0 2px 10px rgba(0, 0, 0, 0.1);
+$btn-hover-shadow: 0px 5px 15px rgba(255, 126, 95, 0.4);
+$section-padding: 50px 10px;
+
+@mixin responsive($max-screen-size) {
+    @media (max-width: $max-screen-size) {
+        @content;
+    }
+}
